@@ -16,10 +16,12 @@ function Navbar() {
 		<header>
 			<img className="logo" src= {logo} alt="logo" />
  			<nav ref={navRef}>
-				<a href="/#">Home</a>
-				<a href="/#">My work</a>
-				<a href="/#">Blog</a>
-				<a href="/#">About me</a>
+				<a href="/#">About</a>
+				<a href="/#">Skills</a>
+				<a href="/#">Projects</a>
+				<a href="/#">Education</a>
+				<a href="/#">Contact</a>
+
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>
