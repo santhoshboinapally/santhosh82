@@ -1,0 +1,16 @@
+.hedding {
+    padding: 8px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 3px 3px #f5acac;
+    background:
+      linear-gradient(#ff0000 0 0) top left,
+      linear-gradient(#5be05b 0 0) bottom right;
+    background-size: 0% 0%;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    transition: .5s;
+  }
+  .hedding:hover {
+    background-size: calc(50% - 20px) calc(50% - 20px);
+  }
