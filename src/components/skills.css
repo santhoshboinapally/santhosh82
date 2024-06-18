@@ -1,0 +1,24 @@
+  .container2 {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 20em;
+    width: 40rem;
+  }
+  .skill-box {
+    height: 70px;
+    margin: 25px;
+    width: 70px;
+  }
+  .skill-box:hover {
+    background-color: #eceb90;
+  }
+  @media only screen and (max-width: 1024px) {
+        .container2{
+        display: flex;
+        flex-wrap: wrap;
+		flex-direction: column;
+        margin:0;
+        width: auto;
+    }
+   
+  }

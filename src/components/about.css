@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    margin: 0 18em;
+    padding-top: 100px;   
+  }
+  .col-left {
+    margin: 1em;
+    width: 150%;
+  }
+  .about {
+    color: rgb(18, 16, 16);
+    font-size: 1.2em;
+    text-align: center;
+    font-style: italic;
+     }
+  .col-right {
+    margin: 1em;
+    width: 150%;
+  }
+  .mypic {
+    width: 500px;
+    height: 400px;
+    border-radius: 50%;
+  }
+  @media only screen and (max-width: 1200px) {
+    .container{
+        display: block;
+		    flex-direction: column;
+        margin: 0;
+        width: 50%;
+        }
+    .col-left{
+        margin: 100px;
+        width: 100%;
+    }
+    .col-right {
+      margin: 0;
+      width: auto;
+    }
+  }
