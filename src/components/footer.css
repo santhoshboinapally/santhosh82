@@ -1,0 +1,25 @@
+  .footer-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(241, 238, 238);
+    border-radius: 10px;
+    background-color: var(--mainColor);
+    border-top: 4px solid rgb(99, 146, 255);
+  }
+  .address p{
+    font-size: 1.2rem;
+  }
+  .footer-icons a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: bisque;
+    border: 1px solid purple;
+    border-radius: 25px;
+    }
+    .footer-icons a :hover {
+      background-color: aqua;
+    }

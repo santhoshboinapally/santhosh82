@@ -4,3 +4,26 @@
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
  }
+ .intro button{
+    display: flex;
+    background: linear-gradient(270deg,#ff954f,#fa6d86);
+    cursor: pointer;
+    border: none;
+    margin-left : 700px;
+ }
+ .intro button a img{
+    height:25px;
+    width:25px;
+ }
+.intro button a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 1200px) {    
+.intro button{
+    display: block;
+    margin: auto;
+}
+}

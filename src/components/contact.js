@@ -1,17 +1,17 @@
 import React from "react";
 import './contact.css';
-import REACT_APP_API_KEY from "../.env";
+//import REACT_APP_API_KEY from "../.env";
 import arrow from "../components/images/arrow.png"
 
 function Contact() {
     const [result, setResult] = React.useState("");
-  
+    const REACT_APP_API_KEY="d17359a1-ccd9-4a65-9080-afeeb6503e72";
     const onSubmit = async (event) => {
       event.preventDefault();
       setResult("Sending....");
       const formData = new FormData(event.target);
   
-      formData.append("access_key",{REACT_APP_API_KEY});
+      formData.append("access_key",REACT_APP_API_KEY);
   
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
@@ -21,7 +21,7 @@ function Contact() {
       const data = await response.json();
   
       if (data.success) {
-        setResult("Form Submitted Successfully");
+        setResult("Mail Sended Successfully");
         event.target.reset();
       } else {
         console.log("Error", data);
