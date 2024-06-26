@@ -4,7 +4,6 @@
     justify-content: space-around;
     align-items: center;
     color: rgb(241, 238, 238);
-    border-radius: 10px;
     background-color: var(--mainColor);
     border-top: 4px solid rgb(99, 146, 255);
   }
@@ -22,4 +21,11 @@
     }
     .footer-icons a :hover {
       background-color: aqua;
+    }
+
+    @media only screen and (max-width: 1200px) {
+    footer {
+        display: block;
+        flex-direction: column;
+      }
     }
