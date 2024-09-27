@@ -1,6 +1,5 @@
 import React from 'react';
 import Typed from 'typed.js';
-import contact from '../components/images/contact.png'
 import './banner.css'
 
 function Banner() {
@@ -22,8 +21,8 @@ function Banner() {
   return (
     <div className="intro">
       <span ref={intro} />
-      <button><a href="#Contact">Contact<img src={contact} alt="contact"/></a></button>
-    </div>
-  );
+      <button><a href="#Contact">Contact</a></button>
+      </div>
+    );
 }
 export default Banner 

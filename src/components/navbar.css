@@ -8,6 +8,11 @@ header {
 	color: var(--textColor);
     border-bottom: 4px solid rgb(99, 146, 255);
 }
+.cv-btn{
+	background: linear-gradient(270deg,#ff954f,#fa6d86);
+    cursor: pointer;
+    border: none;
+}
 .logo{
     width :100px;
     height: 50px;
@@ -20,8 +25,7 @@ nav a {
 }
 
 nav a:hover {
-	color: var(--secondaryColor);
-	font-size: 1.5rem ;
+font-size: 1.5rem ;
 }
 
 header .nav-btn {
@@ -42,7 +46,7 @@ nav {
 	align-items: center;
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 600px) {
 	header .nav-btn {
 		visibility: visible;
 		opacity: 1;

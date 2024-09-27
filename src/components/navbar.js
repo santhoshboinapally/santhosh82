@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./navbar.css";
 import logo from './images/logo.png';
+import resume from './Data/SanthoshBCV.pdf'
 
 function Navbar() {
 	const navRef = useRef();
@@ -21,6 +22,7 @@ function Navbar() {
 				<a href="#Projects">Projects</a>
 				<a href="#Education">Education</a>
 				<a href="#Contact">Contact</a>
+				<button className="cv-btn"><a href={resume} download="SanthoshBCV.pdf">Resume</a></button>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>
