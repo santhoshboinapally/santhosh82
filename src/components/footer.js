@@ -7,7 +7,6 @@ import Contact from "./contact";
 import call from '../components/images/call.png';
 import mail from '../components/images/mail.png';
 import location from '../components/images/location.png';
-import { Cyckling } from "./cyckling";
 
 const Footer = () => {
     return (      
@@ -33,7 +32,7 @@ const Footer = () => {
             <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram  /></a>
          </div>
         </div>
-        </div>  <Cyckling />       
+        </div>       
     </footer> 
  );
 };
